@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Artlabs\\Gravatar": "src/"
+            "Artlabs\\Gravatar\\": "src/"
         }
     },
     "minimum-stability": "dev"
