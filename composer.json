@@ -1,0 +1,22 @@
+{
+    "name": "artlabs/gravatar",
+    "description": "Avatar Generator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shandy Hermawan",
+            "email": "hrm.shandy05@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Artlabs\\Gravatar": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
