@@ -41,6 +41,9 @@ class GravatarServiceProvider extends ServiceProvider {
         $this->app->bind('gravatar', function($app) {
             return new Gravatar;
         });
+
+        $loader = AliasLoader::getInstance();
+        $loader->alias('Gravatar', 'Artlabs\Gravatar\Facades\Gravatar');
     }
 
     /**
